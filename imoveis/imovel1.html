@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Document</title>
+</head>
+<body>
+        <header class="cabecalho">
+        <img src="../img/logotipo_imobi_white.png" height="100px" alt="" class="logotipo">
+        <nav class="navegacao">
+            <ul>
+                <li><a href="../index.html">Início</a></li>
+                <li><a href="../imoveis.html">Imóveis</a></li>
+                <li><a href="../quem_somos.html">Quem somos</a></li>
+            </ul>
+        </nav>
+        <a href="../contato.html" class="botao_primario_cor2">Contato</a>
+    </header>
+    <main>
+        <!--
+            - Topo
+            - Conteúdo principal, mostrando detalhadamente o imóvel com imagens e descrição do mesmo.
+            - Formulário de contato com os campos Nome, email, telefone para saber mais sobre o imóvel.
+            - Rodapé
+        -->
+        <section class="pagina_imovel">
+            <h1>Título imóvel</h1>
+            <div class="pagina_imovel__conteudo">
+                <img src="../img/imovel1.png" alt="">
+                <div class="pagina_imovel__texto">
+                    <p class="preco">R$ 1.000.000</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque adipisci sed fugiat consequatur mollitia veritatis cumque numquam, libero totam, soluta eaque laboriosam reprehenderit distinctio? Fugit ipsam ex quisquam similique nemo?</p>
+                </div>
+            </div>
+            <div class="formulario_contato_para_imovel">
+            <div class="pagina_imovel__formulario">
+                <h2 class="titulo_secao" style="padding: 50px 0; margin: 20px">Mais informações?</h2>
+                <form action="" method="post" class="formulario_contato">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome">
+
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email">
+
+                    <label for="telefone">telefone</label>
+                    <input type="tel" name="telefone" id="telefone">
+
+                    <input type="submit" value="Enviar" class="botao_envio">
+                </form>
+            </div>
+            </div>
+        </section>
+    </main>
+    <footer class="rodape">
+        <div class="logo_rodape">
+            <img src="../img/logotipo_imobi_black.png" alt="logotipo">
+            <p>Cada chave, um novo começo.</p>
+        </div>
+        <div class="contate_nos">
+            <h2>Contate-nos</h2>
+            <p class="subtitulo_footer">Agende uma visita conosco</p>
+            <p>imobi@email.com</p>
+            <p>+55 (51) 99999-9999</p>
+        </div>
+        <div class="siga_nos">
+            <h2>Siga-nos</h2>
+            <p class="subtitulo_footer">Nos acompanhe nas redes sociais</p>
+            <a href="#"><img src="../img/icones/facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="../img/icones/instagram.png" alt="instagram"></a>
+            <a href="#"><img src="../img/icones/x.png" alt="X"></a>
+        </div>
+        <div class="direitos_footer">Imobi Inc © Todos os direitos reservados</div>
+    </footer>
+</body>
+</html>
