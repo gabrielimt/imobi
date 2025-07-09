@@ -3,8 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/">
+    <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
+    <style>
+        textarea{
+            height: 100px;
+            width: 100%;
+            padding: 15px;
+            border-radius: 25px;
+            border: 1px solid var(--primario_auxiliar2);
+            margin-bottom: 30px;
+        }
+    </style>
 </head>
 <body>
         <header class="cabecalho">
@@ -19,7 +29,28 @@
         <a href="contato.html" class="botao_primario_cor2">Contato</a>
     </header>
     <main>
+        <section class="contato">
+            <div class="formulario_contato_para_imovel">
+                    <div class="formulario_de_contato">
+                    <h2 class="titulo_secao" style="padding: 50px 0; margin: 20px">Contate-nos!</h2>
+                    <form action="" method="post" class="formulario_contato">
+                        <label for="nome">Nome</label>
+                        <input type="text" name="nome" id="nome">
 
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="email">
+
+                        <label for="telefone">telefone</label>
+                        <input type="tel" name="telefone" id="telefone">
+
+                        <label for="mensagem">Mensagem</label>
+                        <textarea name="" id=""></textarea>
+
+                        <input type="submit" value="Enviar" class="botao_envio">
+                    </form>
+                </div>
+            </div>
+        </section>
     </main>
     <footer class="rodape">
         <div class="logo_rodape">
