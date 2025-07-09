@@ -214,3 +214,26 @@ section{
     text-align: center;
     grid-column: 1 / 4;
 }
+
+@media (max-width: 1200px) {
+    .rodape{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .contate_nos, .siga_nos{
+        text-align: center;
+    }
+}
+
+@media (max-width: 1000px) {
+    .cabecalho{
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(auto);
+        gap: 25px;
+        padding-bottom: 50px;
+    }
+}
