@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+    <style>
+        .titulo_secao{
+            margin: 0 0 100px 0;
+        }
+
+        .janela_horizontal{
+            height: 450px;
+            width: 700px;
+        }
+        
+        .banner .conteudo{
+            display: grid;
+            grid-template-columns: 70% 30%;
+            padding: 0 10%;
+            justify-items: center;
+            align-items: center;
+        }
+
+        .banner .conteudo h2{
+            font-size: 75px;
+            text-transform: uppercase;
+        }
+
+        .banner .conteudo h3{
+            font-size: 30px;
+        }
+
+        .conteudo_quem_somos{
+            background: var(--primario);
+            color: var(--claro);
+            padding: 200px 10%;
+        }
+
+        .galeria{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 25px;
+        }
+
+        @media(max-width: 1400px) {
+            .banner .conteudo{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                text-align: center;
+            }
+        }
+
+        @media (max-width: 900px) {
+            .janela_horizontal{
+                width: 90%;
+                height: max-content;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="img/logotipo_imobi_white.png" height="100px" alt="" class="logotipo">
+        <nav class="navegacao">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="imoveis.html">Imóveis</a></li>
+                <li><a href="quem_somos.html">Quem somos</a></li>
+            </ul>
+        </nav>
+        <a href="contato.html" class="botao_primario_cor2">Contato</a>
+    </header>
+    <main>
+        <!--
+            - Topo
+            - Banner - slide show (pelo menos 3 imagens)
+            - Conteúdo principal contando o histórico da empresa e galeria de imagens com fotos da empresa.
+            - Rodapé
+        -->
+        <section class="banner">
+            <h1 class="titulo_secao">Quem somos</h1>
+            <div class="conteudo">
+                <img src="img/chaves_mao2.png" alt="Mão segurando chaves" class="janela_horizontal">
+                <div>
+                    <h2>Imobi</h2>
+                    <h3>Cada chave, um novo começo.</h3>
+                </div>
+            </div>
+        </section>
+        <section class="conteudo_quem_somos">
+            <p>Fundada com o propósito de transformar sonhos em realidade, a IMOBI nasceu da paixão por conectar pessoas aos lugares certos. Desde o início, acreditamos que um lar vai muito além de paredes e telhado — ele representa segurança, memórias e novos começos.</p>
+            <br>
+            <p>Ao longo dos anos, nos consolidamos como uma imobiliária comprometida com a excelência no atendimento, transparência nas negociações e profundo conhecimento do mercado imobiliário. Atendemos com cuidado desde quem busca seu primeiro aluguel até quem realiza o sonho da casa própria.</p>
+            <br>
+            <p>Com uma equipe especializada e atendimento humanizado, buscamos entender o estilo de vida de cada cliente para encontrar o imóvel ideal. Porque, para a IMOBI, cada chave entregue representa muito mais do que uma conquista — é o início de uma nova história.</p>
+        </section>
+        <section class="galeria">
+            <img src="img/chaves_mao1.png" alt="" class="janela_vertical">
+            <img src="img/chaves_mao1.png" alt="" class="janela_vertical">
+            <img src="img/chaves_mao1.png" alt="" class="janela_vertical">
+        </section>
+    </main>
+    <footer class="rodape">
+        <div class="logo_rodape">
+            <img src="img/logotipo_imobi_black.png" alt="logotipo">
+            <p>Cada chave, um novo começo.</p>
+        </div>
+        <div class="contate_nos">
+            <h2>Contate-nos</h2>
+            <p class="subtitulo_footer">Agende uma visita conosco</p>
+            <p>imobi@email.com</p>
+            <p>+55 (51) 99999-9999</p>
+        </div>
+        <div class="siga_nos">
+            <h2>Siga-nos</h2>
+            <p class="subtitulo_footer">Nos acompanhe nas redes sociais</p>
+            <a href="#"><img src="img/icones/facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="img/icones/instagram.png" alt="instagram"></a>
+            <a href="#"><img src="img/icones/x.png" alt="X"></a>
+        </div>
+        <div class="direitos_footer">Imobi Inc © Todos os direitos reservados</div>
+    </footer>
+</body>
+</html>

@@ -171,5 +171,46 @@ section{
 
 .mapa{
     height: 500px;
-    width: 1400px;
+    width: 100%;
+}
+
+/* RODAPÉ */
+.rodape{
+    height: 300px;
+    background: var(--claro);
+    display: grid;
+    grid-template-columns: 40% 30% 30%;
+    grid-template-rows: 200px 100px;
+    padding: 50px 200px;
+}
+
+.logo_rodape img{
+    width: 300px;
+}
+
+.logo_rodape p{
+    font-size: 20px;
+}
+
+.subtitulo_footer{
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.siga_nos, .contate_nos{
+    align-self: center;
+}
+
+.siga_nos img{
+    height: 50px;
+}
+
+.direitos_footer{
+    color: #bbb;
+    border-top: 1px #bbb solid;
+    width: 100%;
+    padding-top: 30px;
+    align-self: center;
+    text-align: center;
+    grid-column: 1 / 4;
 }
