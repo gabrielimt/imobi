@@ -241,8 +241,8 @@ section{
     font-size: 30px;
 }
 
-.pagina_imovel__formulario{
-        min-width: 300px;
+.formulario_de_contato{
+    min-width: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -325,7 +325,7 @@ section{
 }
 
 @media (max-width: 650px) {
-    .pagina_imovel__formulario{
+    .formulario_de_contato{
         width: 300px;
     }
 }
